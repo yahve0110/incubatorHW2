@@ -1,0 +1,20 @@
+.App {
+    --header_height: 60px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(120, 168, 209);
+    width: 100vw;
+}
+
+.hw {
+
+
+justify-content: center;
+padding: 6rem;
+}
+
+.hwTitle {
+margin-top: 20px;
+font-size: 30px;
+}

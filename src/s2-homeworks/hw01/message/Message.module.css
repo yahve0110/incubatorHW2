@@ -1,0 +1,63 @@
+
+:root{
+    --main-blue:#4e80ec
+}
+
+.message {
+display: flex;
+margin-bottom: 2rem;
+justify-content: flex-end;
+
+}
+
+.imageAndText {
+
+}
+
+.message img {
+width: 60px;
+height: 60px;
+}
+
+.text {
+background-color: var(--main-blue);
+padding: 8px;
+font-size: 17px;
+color: white;
+border-radius: 10px 10px 0 10px;
+
+position: relative;
+}
+
+.text:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top right, transparent 49%, var(--main-blue) 51%) no-repeat right bottom;
+}
+
+.name {
+display: flex;
+justify-content: flex-end;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 6px;
+}
+
+.messageText {
+
+}
+
+.time {
+margin-top: 5px;
+}
+.imgAndTime{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 30px;
+}
